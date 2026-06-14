@@ -38,7 +38,7 @@ export default function ClientProfile() {
         companyLogo: null
       });
       if (user.companyLogo) {
-        setPreviewImage(`http://localhost:3000${user.companyLogo}`);
+        setPreviewImage(`https://freelancing-platform-backend-yqyp.onrender.com${user.companyLogo}`);
       }
     }
   }, [user]);
