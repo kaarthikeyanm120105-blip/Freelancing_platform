@@ -12,7 +12,7 @@ export const SocketProvider = ({ children }) => {
 
     useEffect(() => {
         if (user) {
-            const newSocket = io('http://localhost:3000', {
+            const newSocket = io('https://freelancing-platform-backend-yqyp.onrender.com', {
                 withCredentials: true
             });
             setSocket(newSocket);
