@@ -1,0 +1,15 @@
+export const jobCategories = [
+    'Web Development',
+    'Mobile App Development',
+    'UI/UX Design',
+    'Graphic Design',
+    'Content Writing',
+    'Digital Marketing',
+    'Data Entry',
+    'Video Editing',
+    'SEO',
+    'Software Development',
+    'AI / Machine Learning',
+    'Cybersecurity',
+    'Cloud Computing',
+];
