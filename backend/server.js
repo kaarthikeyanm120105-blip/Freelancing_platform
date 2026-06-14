@@ -21,7 +21,7 @@ const port = process.env.PORT || 4000;
 
 app.use(cors(
     {
-        origin: ["http://localhost:5173", "http://localhost:5174"],
+        origin: ["http://localhost:5173", "http://localhost:5174","https://freelancing-platform-frontend.onrender.com"],
         credentials: true
     }
 ));
