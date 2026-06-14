@@ -98,7 +98,7 @@ export default function FreelancerProfile() {
   const getFullUrl = (path) => {
     if (!path) return null;
     if (path.startsWith('http')) return path;
-    return `http://localhost:3000${path}`;
+    return `https://freelancing-platform-backend-yqyp.onrender.com${path}`;
   };
 
   const handleAddField = (type) => {
